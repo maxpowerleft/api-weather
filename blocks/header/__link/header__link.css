@@ -1,0 +1,14 @@
+.header__link {
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-right: 35px;
+  transition: all .6s linear;
+}
+
+.header__link:hover {
+  letter-spacing: .05em;
+  text-shadow: 4px 4px 0px rgb(199, 199, 199),
+  7px 7px 0px rgba(0, 0, 0, 0.2);
+  transition: all .4s ease-in-out;
+}
