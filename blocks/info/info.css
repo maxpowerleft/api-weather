@@ -1,0 +1,10 @@
+@import url(./__text/info__text.css);
+@import url(./__title/info__title.css);
+
+.info {
+  max-width: 680px;
+  width: 100%;
+  min-height: 230px;
+  margin: 100px auto;
+  border: .5px solid #000;
+}

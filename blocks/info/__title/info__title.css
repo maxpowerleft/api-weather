@@ -1,0 +1,9 @@
+.info__title {
+  margin-top: 35px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: .2em;
+}
