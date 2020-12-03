@@ -1,0 +1,8 @@
+@import url(../location/__text/location__text.css);
+@import url(../location/__input/location__input.css);
+
+.location {
+  max-width: 680px;
+  width: 100%;
+  margin: 50px auto;
+}
