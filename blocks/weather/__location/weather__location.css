@@ -1,0 +1,7 @@
+.weather__location {
+  text-align: center;
+  margin: 45px auto 0;
+  font-size: 42px;
+  line-height: 1.1;
+  letter-spacing: 0.08em;
+}

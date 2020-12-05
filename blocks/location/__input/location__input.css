@@ -5,13 +5,13 @@
   text-transform: uppercase;
   letter-spacing: .25em;
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   margin-top: 30px;
   transition: linear .2s;
 }
 
 .location__input:focus {
   transition: linear .2s;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
   outline: none;
 }
