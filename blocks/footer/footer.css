@@ -1,0 +1,12 @@
+@import url(../footer/__copyright/footer__copyright.css);
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1439px;
+  width: 100%;
+  min-height: 25px;
+  background-color: rgb(100, 100, 100);
+}
