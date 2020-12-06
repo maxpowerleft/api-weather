@@ -8,3 +8,9 @@
   width: 100%;
   margin: 50px auto;
 }
+
+@media screen and (max-width: 424px) {
+  .location {
+    max-width: 380px;
+  }
+}

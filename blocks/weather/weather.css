@@ -14,3 +14,32 @@
   outline: 1px rgb(0, 0, 0) solid;
   box-shadow: 6px 6px 5px rgba(0, 0, 0, .2);
 }
+
+@media screen and (max-width: 1279px) {
+  .weather {
+    max-width: 235px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .weather {
+    max-width: 475px;
+    margin-bottom: 50px;
+  }
+
+  .weather:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .weather {
+    max-width: 325px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .weather {
+    max-width: 275px;
+  }
+}

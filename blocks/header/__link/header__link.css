@@ -12,3 +12,10 @@
   7px 7px 0px rgba(0, 0, 0, 0.2);
   transition: all .4s ease-in-out;
 }
+
+@media screen and (max-width: 767px) {
+  .header__link {
+    margin-right: 0;
+    padding-bottom: 5px;
+  }
+}

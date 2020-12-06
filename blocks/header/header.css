@@ -12,3 +12,10 @@
   min-height: 65px;
   background-color: rgb(204, 204, 204);
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
