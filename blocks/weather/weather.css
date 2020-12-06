@@ -4,13 +4,12 @@
 @import url(../weather/__features/weather__features.css);
 @import url(../weather/__header/weather__header.css);
 @import url(../weather/__list-type/weather__list-type.css);
-@import url(../weather/__location/weather__location.css);
 @import url(../weather/__sky/weather__sky.css);
 
 .weather {
   max-width: 275px;
   width: 100%;
-  height: 436px;
+  min-height: 436px;
   /*Обрати внимание на жесткое задание высоты*/
   outline: 1px rgb(0, 0, 0) solid;
   box-shadow: 6px 6px 5px rgba(0, 0, 0, .2);

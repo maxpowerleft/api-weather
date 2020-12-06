@@ -1,6 +1,6 @@
 .weather__feature {
-  margin: 0 0 10px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 1;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
