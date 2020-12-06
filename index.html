@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather</title>
   <meta name="description"
-    content="Тестовая страница по отработке API, json и get запросов. Лэндинг подключает API от сервиса OpenWeather. API Weather позволяет показать погоду выбранного города">
+    content="Тестовая страница по отработке подключения API. Лэндинг подключает API от сервиса OpenWeather. API Weather позволяет показать погоду выбранного города">
   <meta name="keywords" content="API, weather, погода">
   <meta name="author" content="Max Power">
 
@@ -24,21 +24,27 @@
     <main class="content">
       <section class="info">
         <h2 class="info__title">Добро пожаловать!</h2>
-        <p class="info__text">Есть планы на ближайшие несколько дней? А вдруг дождь или метель? Проверьте у нас погоду,
-          чтобы быть уверенным в своих планах!</p>
+        <p class="info__text">Проживаете в Москве или Санкт-Петербурге?</p>
+        <p class="info__text">Есть планы на ближайшие несколько дней? А вдруг дождь или метель?</p>
+        <p class="info__text">Проверьте у нас погоду, чтобы быть уверенным в своих планах!</p>
         <p class="info__text">Ну или самое время придумать план Б :)</p>
       </section>
 
       <section class="location">
-        <p class="location__text">Назовите, пожалуйста, интересующее вас место на англисйком языке, указав город и код
-          страны.</p>
-        <p class="location__text">Например: SAINT PETERSBURG, RU</p>
+        <p class="location__text">Выберите, пожалуйста, интересующее вас место.</p>
         <form action="#" class="location__form">
-          <input type="text" class="location__input">
+          <label class="location__label-input">
+            <input type="radio" class="location__input radio" value="msk" checked>
+            Москва
+          </label>
+          <label class="location__label-input">
+            <input type="radio" class="location__input radio" value="spb">
+            Санкт-Петербург 
+          </label>
         </form>
       </section>
 
-      <section class="weather-table">
+      <!-- <section class="weather-table">
         <div class="weather">
           <div class="weather__header">
             <p class="weather__date">Текущая погода</p>
@@ -124,9 +130,10 @@
     <footer class="footer">
       <p class="footer__copyright">© 2020 API - Weather</p>
     </footer>
-  </div>
+  </div> -->
 
-  <script type="text/javascript" src="scripts/index.js"></script>
+
+      <script type="text/javascript" src="scripts/index.js"></script>
 </body>
 
 </html>

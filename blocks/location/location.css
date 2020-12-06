@@ -1,5 +1,7 @@
 @import url(../location/__text/location__text.css);
 @import url(../location/__input/location__input.css);
+@import url(../location/__label-input/location__label-input.css);
+@import url(../location/__form/location__form.css);
 
 .location {
   max-width: 680px;
