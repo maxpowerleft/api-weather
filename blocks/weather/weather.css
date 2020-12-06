@@ -1,0 +1,45 @@
+@import url(../weather/__date/weather__date.css);
+@import url(../weather/__dergrees/weather__dergrees.css);
+@import url(../weather/__feature/weather__feature.css);
+@import url(../weather/__features/weather__features.css);
+@import url(../weather/__header/weather__header.css);
+@import url(../weather/__list-type/weather__list-type.css);
+@import url(../weather/__sky/weather__sky.css);
+
+.weather {
+  max-width: 275px;
+  width: 100%;
+  min-height: 436px;
+  /*Обрати внимание на жесткое задание высоты*/
+  outline: 1px rgb(0, 0, 0) solid;
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 1279px) {
+  .weather {
+    max-width: 235px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .weather {
+    max-width: 475px;
+    margin-bottom: 50px;
+  }
+
+  .weather:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .weather {
+    max-width: 325px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .weather {
+    max-width: 275px;
+  }
+}

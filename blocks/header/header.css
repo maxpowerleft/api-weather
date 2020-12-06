@@ -1,0 +1,21 @@
+@import url(./__logo/header__logo.css);
+@import url(./__text/header__text.css);
+@import url(./__link/header__link.css);
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1439px;
+  width: 100%;
+  min-height: 65px;
+  background-color: rgb(204, 204, 204);
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

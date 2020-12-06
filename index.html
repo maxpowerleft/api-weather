@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather</title>
   <meta name="description"
-    content="Тестовая страница по отработке API, json и get запросов. Лэндинг подключает API от сервиса OpenWeather. API Weather позволяет показать погоду выбранного города">
+    content="Тестовая страница по отработке подключения API. Лэндинг подключает API от сервиса OpenWeather. API Weather позволяет показать погоду выбранного города">
   <meta name="keywords" content="API, weather, погода">
   <meta name="author" content="Max Power">
 
@@ -16,17 +16,96 @@
 <body>
   <div class="page">
     <header class="header">
-
+      <div class="header__logo"></div>
+      <p class="header__text">API - Weather</p>
+      <a href="https://github.com/maxpowerleft" class="header__link" target="_blank">@maxpowerleft</a>
     </header>
 
     <main class="content">
+      <section class="info">
+        <h2 class="info__title">Добро пожаловать!</h2>
+        <p class="info__text">Проживаете в Москве или Санкт-Петербурге?</p>
+        <p class="info__text">Есть планы на ближайшие несколько дней? А вдруг дождь или метель?</p>
+        <p class="info__text">Проверьте у нас погоду, чтобы быть уверенным в своих планах!</p>
+        <p class="info__text">Ну или самое время придумать план Б :)</p>
+      </section>
 
+      <section class="location">
+        <p class="location__text">Выберите, пожалуйста, интересующее вас место.</p>
+        <form action="#" class="location__form">
+          <label class="location__label-input">
+            <input type="radio" class="location__input radio" name="#" value="Moscow">
+            Москва
+          </label>
+          <label class="location__label-input">
+            <input type="radio" class="location__input radio" name="#" value="SaintPetersburg">
+            Санкт-Петербург 
+          </label>
+        </form>
+      </section>
+
+      <section class="weather-table">
+        <div class="weather">
+          <div class="weather__header">
+            <p class="weather__date">Текущая погода</p>
+          </div>
+          <p class="weather__sky">Clouds/Snow</p>
+          <ul class="weather__features">
+            <li class="weather__list-type">
+              <p class="weather__feature">Доп.новость</p>
+            </li>
+            <p class="weather__dergrees">-7*</p>
+          </ul>
+        </div>
+
+        <div class="weather">
+          <div class="weather__header">
+            <p class="weather__date">Завтра</p>
+          </div>
+          <p class="weather__sky">Clouds/Snow</p>
+          <ul class="weather__features">
+            <li class="weather__list-type">
+              <p class="weather__feature">Доп.новость</p>
+            </li>
+            <p class="weather__dergrees">-7*</p>
+          </ul>
+        </div>
+
+        <div class="weather">
+          <div class="weather__header">
+            <p class="weather__date">Послезавтра</p>
+          </div>
+          <p class="weather__sky">Clouds/Snow</p>
+          <ul class="weather__features">
+            <li class="weather__list-type">
+              <p class="weather__feature">Доп.новость</p>
+            </li>
+            <p class="weather__dergrees">-7*</p>
+          </ul>
+        </div>
+
+        <div class="weather">
+          <div class="weather__header">
+            <p class="weather__date">На 4 день</p>
+          </div>
+          <p class="weather__sky">Clouds/Snow</p>
+          <ul class="weather__features">
+            <li class="weather__list-type">
+              <p class="weather__feature">Доп.новость</p>
+            </li>
+            <p class="weather__dergrees">-7*</p>
+          </ul>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer">
-      
+   <footer class="footer">
+      <p class="footer__copyright">© 2020 API - Weather</p>
     </footer>
   </div>
+
+
+      <script type="text/javascript" src="scripts/index.js"></script>
 </body>
 
 </html>

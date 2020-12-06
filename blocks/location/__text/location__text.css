@@ -1,0 +1,13 @@
+.location__text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: .03em;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 424px) {
+  .location__text {
+      font-size: 21px;
+  }
+}
